@@ -1,0 +1,128 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    }
+
+.background1 {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    background-color: background: rgb(153,92,162); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(153,92,162,1) 28%, rgba(116,70,122,1) 92%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(153,92,162,1) 28%,rgba(116,70,122,1) 92%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgba(153,92,162,1) 28%,rgba(116,70,122,1) 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#995ca2', endColorstr='#74467a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
+    }
+
+.logo {
+    position: absolute;
+    left: auto;
+    right: auto;}
+     
+
+h1 {font-family: Wida Round Demo;
+    font-style: bold;
+    font-size: 30px;}
+
+h2 {font-family: Wida Round Demo;
+    font-style: bold;
+    font-size: 20px;}
+
+.lila {color: #996699}
+.green {color: #5DB2AD}
+.pink {color: #DB729D}
+.blue {color: #0071BC}
+.white {color: #FFFFFF}
+
+.backlila {background: rgb(116,70,122); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(116,70,122,1) 1%, rgba(153,92,162,1) 50%, rgba(116,70,122,1) 98%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(116,70,122,1) 1%,rgba(153,92,162,1) 50%,rgba(116,70,122,1) 98%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(116,70,122,1) 1%,rgba(153,92,162,1) 50%,rgba(116,70,122,1) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74467a', endColorstr='#74467a',GradientType=0 ); /* IE6-9 */}
+.backgreen {background: rgb(70,133,130); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(70,133,130,1) 1%, rgba(93,179,174,1) 50%, rgba(70,133,130,1) 98%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(70,133,130,1) 1%,rgba(93,179,174,1) 50%,rgba(70,133,130,1) 98%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(70,133,130,1) 1%,rgba(93,179,174,1) 50%,rgba(70,133,130,1) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#468582', endColorstr='#468582',GradientType=0 ); /* IE6-9 */}
+.backpink {background: rgb(162,68,107); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(162,68,107,1) 1%, rgba(220,115,158,1) 50%, rgba(162,68,107,1) 98%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(162,68,107,1) 1%,rgba(220,115,158,1) 50%,rgba(162,68,107,1) 98%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(162,68,107,1) 1%,rgba(220,115,158,1) 50%,rgba(162,68,107,1) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2446b', endColorstr='#a2446b',GradientType=0 ); /* IE6-9 */}
+.backblue {background: rgb(45,46,131); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(45,46,131,1) 1%, rgba(29,113,184,1) 50%, rgba(45,46,131,1) 98%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(45,46,131,1) 1%,rgba(29,113,184,1) 50%,rgba(45,46,131,1) 98%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(45,46,131,1) 1%,rgba(29,113,184,1) 50%,rgba(45,46,131,1) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d2e83', endColorstr='#2d2e83',GradientType=0 ); /* IE6-9 */}
+
+.width5 {width: 5vw;}
+.width50 {width: 50vw;}
+.width20 {width: 20vw;}
+
+.hoehe5 {height: 5vh}
+.hoehe8 {height: 8vh}
+.hoehe10 {height: 10vh}
+.hoehe20 {height: 20vh}
+.hoehe23 {height: 23,vh}
+.hoehe30 {height: 30vh}
+.hoehe40 {height: 40vh}
+.hoehe50 {height: 50vh}
+.hoehe60 {height: 60vh}
+.hoehe70 {height: 70/3vh}
+.hoehe73 {height: calc(70vh/3);}
+.hoehe80 {height: 80vh}
+.hoehe90 {height: 90vh}
+
+
+.header {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.headline {display: flex;
+align-items: center;
+justify-content: center;}
+
+.footer {
+position: relative}
+
+
+.flex {display: flex}
+
+.page { 
+    background-color:#FFFFFF;
+    background-size: cover;
+    display: flex}
+
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #996699;
+    background-repeat: no-repeat;
+    text-align: center}
+
+button img {
+    width: 50%;
+}
+
+.icons{
+    background-position: center center;
+    background-size: 50%;}
+
+.navigation {
+    background-position: bottom;
+    width: 20%;
+}
+
+.ton {
+    position: absolute;
+    right: 0;
+}
+    
+
+
+
