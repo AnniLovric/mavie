@@ -7,7 +7,7 @@
         <img src="images/sexualitaet.png">
         <div><h2 class="green">Sexualität</h2></div></button>
     
-       <button class="width50 icons"><img src="images/liebe.png"><div><h2 class="green">Liebe</h2>
+       <button class="pageBtn width50 icons" data-page="team/liebe" data-animate="ease" data-direction="left"><img src="images/liebe.png"><div><h2 class="green">Liebe</h2>
            </div></button>
 </div>
 

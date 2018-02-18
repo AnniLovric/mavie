@@ -1,11 +1,16 @@
 
 
-<div class="background1"><button class="hoehe40"><img src="images/logoweiss.png"></button>  
+<div class="background1">
+<div><button class="hoeh25"><img src="images/logoweiss.png" class="size3"></button> </div>
 
 
-<div><button class="pageBtn hoehe10" data-page="home" data-animate="ease" data-direction="left"><h1 class="white">Deutsch</h1></button></div>
-<div><button class="hoehe10"><h1 class="white">English</h1></button></div>
-<div><button class="hoehe10"><h1 class="white">Arabisch</h1></button></div>
+<div class="hoehe10"><button class="pageBtn" data-page="home" data-animate="ease" data-direction="left"><img src="images/deutsch.png" class="size3"></button></div>
+<div><button><img src="images/polnisch.png" class="size3"></button></div>
+    <div class="hoehe10"><button><img src="images/rumanisch.png" class="size3"></button></div>
+    <div class="hoehe10"><button><img src="images/bulgarisch.png" class="size3"></button></div>
+    <div class="hoehe10"><button><img src="images/farsi.png" class="size4"></button></div>
+    <div class="hoehe10"><button><img src="images/arabisch.png" class="size4"></button></div>
+    <div class="hoehe10"><button><img src="images/amharisch.png" class="size4"></button></div>
 
 
 

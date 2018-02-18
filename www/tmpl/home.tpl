@@ -2,7 +2,7 @@
 <div class="hoehe10"> </div>
 
 <div class="flex hoehe30">
-    <button class="width50 icons">
+    <button class="pageBtn width50 icons" data-page="werwirsind" data-animate="ease" data-direction="left">
         <img src="images/werwirsind.png">
         <div><h2>Wer wir sind</h2></div></button>
     
@@ -10,7 +10,7 @@
     </div>
     <div class="flex hoehe30">   
        <button class="width50 icons"><img src="images/wowirsind.png"><div><h2>wo wir sind</h2></div></button>
-        <button class="width50 icons"><img src="images/terminfinden.png"><div><h2>Termin finden</h2></div></button> 
+        <button class="pageBtn width50 icons" data-page="team/terminfinden1" data-animate="ease" data-direction="left"><img src="images/terminfinden.png"><div><h2>Termin finden</h2></div></button> 
     </div>
     
   <div class="hoehe10"> </div>

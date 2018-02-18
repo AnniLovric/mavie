@@ -3,7 +3,7 @@
 
 <div class="flex hoehe30">
     <button class="width50 icons">
-        <img src="images/risikoschwanger.png">
+        <img src="images/keinedokumente.png">
         <div><h2 class="pink">Frauen ohne Versicherung</h2></div></button>
     
        <button class="width50 icons"><img src="images/risikoschwanger.png"><div><h2 class="pink">Risiko-<br>schwangerschaft</h2>

@@ -1,8 +1,26 @@
+@font-face {
+    font-family: anni1;
+    src: url(../fonts/corbel.ttf)
+}
+
+@font-face {
+    font-family: anni2;
+    src: url(../fonts/widaround_bold.otf)
+}
+
+
+@font-face {
+    font-family: anni3;
+    src: url(../fonts/widaround_regular.otf)
+}
+
 html, body {
     height: 100%;
     width: 100%;
     margin: 0;
     }
+
+/*  * {border: 1px solid red;} */
 
 .background1 {
     height: 100%;
@@ -22,19 +40,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#995ca2', end
     right: auto;}
      
 
-h1 {font-family: Wida Round Demo;
-    font-style: bold;
-    font-size: 30px;}
+h1 {font-family: "anni2";
+    font-weight:normal;
+    font-size: 5vh;}
 
-h2 {font-family: Wida Round Demo;
-    font-style: bold;
-    font-size: 20px;}
+h2 {font-family: "anni2";
+    font-weight:normal;
+    font-size: 3vh;}
+
+h3 {font-family: "anni1";
+    font-size: calc(5vh/2);
+    font-weight:normal;
+    color: #666666;
+    margin-right: 1vw;}
+
+h4 {font-family: "anni3";
+    font-weight:normal;
+    font-size: 4vh;}
+
+.right {text-align: right;}
+
 
 .lila {color: #996699}
 .green {color: #5DB2AD}
 .pink {color: #DB729D}
 .blue {color: #0071BC}
 .white {color: #FFFFFF}
+.grey {color: #4D4D4D}
 
 .backlila {background: rgb(116,70,122); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(116,70,122,1) 1%, rgba(153,92,162,1) 50%, rgba(116,70,122,1) 98%); /* FF3.6-15 */
@@ -56,16 +88,26 @@ background: -moz-linear-gradient(top, rgba(45,46,131,1) 1%, rgba(29,113,184,1) 5
 background: -webkit-linear-gradient(top, rgba(45,46,131,1) 1%,rgba(29,113,184,1) 50%,rgba(45,46,131,1) 98%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, rgba(45,46,131,1) 1%,rgba(29,113,184,1) 50%,rgba(45,46,131,1) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d2e83', endColorstr='#2d2e83',GradientType=0 ); /* IE6-9 */}
+.lila1 {background-color: #C19DC6}
+.lila2 {background-color: #E0CEE2}
 
 .width5 {width: 5vw;}
-.width50 {width: 50vw;}
+.width10 {width: 10vw;}
 .width20 {width: 20vw;}
+.width30 {width: 30vw}
+.width40 {width: 40vw}
+.width50 {width: 50vw;}
+.width60 {width: 60vw;}
+.width90 {width: 90vw;}
+
 
 .hoehe5 {height: 5vh}
 .hoehe8 {height: 8vh}
 .hoehe10 {height: 10vh}
+.hoehe15 {height: 15vh}
 .hoehe20 {height: 20vh}
-.hoehe23 {height: 23,vh}
+.hoehe23 {height: 23vh}
+.hoehe25 {height: 25vh}
 .hoehe30 {height: 30vh}
 .hoehe40 {height: 40vh}
 .hoehe50 {height: 50vh}
@@ -74,6 +116,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d2e83', end
 .hoehe73 {height: calc(70vh/3);}
 .hoehe80 {height: 80vh}
 .hoehe90 {height: 90vh}
+
+.center {margin: auto auto}
+
+.box {margin: 2px;
+-webkit-border-radius: 3px 3px 3px 3px;
+border-radius: 3px 3px 3px 3px;}
 
 
 .header {
@@ -103,11 +151,16 @@ button {
     border: none;
     color: #996699;
     background-repeat: no-repeat;
-    text-align: center}
+    text-align: center;}
 
 button img {
     width: 50%;
 }
+
+.size1 {width: 20vw}
+.size2 {width: 60vw}
+.size3 {width: 40vw}
+.size4 {width: 30vw}
 
 .icons{
     background-position: center center;
