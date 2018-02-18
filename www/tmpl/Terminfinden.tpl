@@ -83,7 +83,7 @@
   
     
     <div class="flex footer hoehe10 backlila">
-       <button class="pageBtn hoehe10 navigation" data-page="team/terminfinden1" data-animate="ease" data-direction="right"><img src=images/backwhite.png></button>
+       <button class="pageBtn hoehe10 navigation" data-page="terminfinden1" data-animate="ease" data-direction="right"><img src=images/backwhite.png></button>
        
          <button class="hoehe10 navigation ton"><img src=images/tonlila.png></button>
 </div>
